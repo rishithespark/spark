@@ -5,3 +5,4 @@ def computeMD5hash(string):
     m.update((string))
     md5string=m.digest()
     return md5string
+#rishi
