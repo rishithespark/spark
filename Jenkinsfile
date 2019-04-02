@@ -8,7 +8,7 @@ pipeline {
                 checkout scm
                 
                 sh 'echo test setup star'
-                sh 'docker docker pull pypi/bandit '
+                sh 'sudo docker pull secfigo/bandit'
                 sh 'docker ps -a'
                 
             }
