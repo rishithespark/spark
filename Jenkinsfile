@@ -13,10 +13,10 @@ pipeline {
                 
             }
         }
+    }
         stage('Test for security issues') {
             steps {
                 sh 'bandit -r /var/lib/jenkins/workspace/bandit '
             }
         }
-    }
 }
